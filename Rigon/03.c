@@ -15,7 +15,7 @@ int main(){
   scanf("%f", &cig);
   printf("Preco da carteira de cigarros:\n");
   scanf("%f", &carteira);
-  total = cig * 365 * anos * carteira;
+  total = cig * 365 * anos * (carteira/20);
   printf("Total de dinheiro gasto: R$ %.2f\n", total);
 
 }
